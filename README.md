@@ -20,16 +20,7 @@ The project focuses on professional development practices including programming,
 ### GUI Design
 The graphical user interface (GUI) is designed to be simple, clean, and suitable for internal staff use. Figure 1 shows:
 
-
-
-
-
-
-    
-
-
-
-
+<img width="775" height="750" alt="Screenshot 2026-02-26 at 12 36 54" src="https://github.com/user-attachments/assets/a09c1a1a-9c0e-4006-87ac-dfcee10cb457" />
 
 
 
@@ -173,11 +164,14 @@ All unit tests passed locally using:
 pytest -q
 Continuous integration on GitHub Actions also successfully executed all tests automatically on push, confirming correct configuration.
 
+<img width="581" height="222" alt="Screenshot 2026-02-26 at 13 06 12" src="https://github.com/user-attachments/assets/63c6fe69-235c-44bc-b6b7-3ca526219d1a" />
+
+
 This demonstrates an understanding of automated quality assurance practices.
 
 However, the initial CI run failed because GitHub Actions could not locate the local quiz package whilst running pytest. This was resolved by configuring the PYTHONPATH in the workflow file, allowing the test environment to correctly detect project modules.
 
- 
+ <img width="583" height="210" alt="Screenshot 2026-02-26 at 13 06 39" src="https://github.com/user-attachments/assets/ef146803-e9f7-468c-96d4-d02106c7d398" />
 
 
 
