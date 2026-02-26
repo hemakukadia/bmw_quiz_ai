@@ -191,11 +191,11 @@ pip3 install -r requirements.txt
 python3 main.py
 
 ### How to Use
-•	Enter your name.
-•	Answer all questions.
-•	View your final score.
-•	Use “View Attempts” to see past results.
-•	Use “Export CSV” to download results.
+1.  Enter your name
+2.  Answer all questions
+3.  View your final score
+4.  Use “View Attempts” to see past results
+5.  Use “Export CSV” to download results
  
 ## Technical Documentation
 
